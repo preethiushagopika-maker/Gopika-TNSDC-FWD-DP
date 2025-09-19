@@ -1,0 +1,235 @@
+/* General Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Arial", sans-serif;
+
+}
+
+/* Navbar */
+
+header {
+
+  background: #333;
+
+  color: #fff;
+
+  padding: 15px 30px;
+
+  position: sticky;
+
+  top: 0;
+
+}
+
+nav {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.logo {
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+}
+
+.nav-links {
+
+  list-style: none;
+
+  display: flex;
+
+  gap: 20px;
+
+}
+
+.nav-links a {
+
+  text-decoration: none;
+
+  color: #fff;
+
+  transition: color 0.3s;
+
+}
+
+.nav-links a:hover {
+
+  color: #ff9800;
+
+}
+
+/* Hero Section */
+
+.hero {
+
+  height: 90vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+
+}
+
+.hero h1 {
+
+  font-size: 40px;
+
+}
+
+.hero span {
+
+  color: #ff5722;
+
+}
+
+.hero p {
+
+  margin: 15px 0;
+
+  font-size: 18px;
+
+}
+
+.hero button {
+
+  padding: 10px 20px;
+
+  background: #ff5722;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+.hero button:hover {
+
+  background: #e64a19;
+
+}
+
+/* About */
+
+.about, .skills, .projects, .contact {
+
+  padding: 50px 20px;
+
+  text-align: center;
+
+}
+
+.about p {
+
+  max-width: 700px;
+
+  margin: auto;
+
+  line-height: 1.6;
+
+}
+
+/* Skills */
+
+.skills ul {
+
+  list-style: none;
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 15px;
+
+}
+
+.skills li {
+
+  background: #ffecd2;
+
+  padding: 10px 20px;
+
+  border-radius: 10px;
+
+  font-weight: bold;
+
+}
+
+/* Projects */
+
+.projects .project-card {
+
+  background: #ffe0b2;
+
+  padding: 20px;
+
+  margin: 15px auto;
+
+  border-radius: 10px;
+
+  max-width: 500px;
+
+  transition: transform 0.3s;
+
+}
+
+.projects .project-card:hover {
+
+  transform: scale(1.05);
+
+}
+
+/* Contact */
+
+.contact a {
+
+  color: #ff5722;
+
+  text-decoration: none;
+
+}
+
+.contact a:hover {
+
+  text-decoration: underline;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: #333;
+
+  color: #fff;
+
+  padding: 15px;
+
+  text-align: center;
+
+}
